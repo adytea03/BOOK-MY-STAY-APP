@@ -13,15 +13,15 @@ public class UseCase2RoomInitialization {
         int suiteAvailable = 2;
 
         System.out.println("Single Room:");
-        single.displayRoomDetails();
+        single.hashCode();
         System.out.println("Available: " + singleAvailable + "\n");
 
         System.out.println("Double Room:");
-        doubleRoom.displayRoomDetails();
+        doubleRoom.hashCode();
         System.out.println("Available: " + doubleAvailable + "\n");
 
         System.out.println("Suite Room:");
-        suite.displayRoomDetails();
+        suite.hashCode();
         System.out.println("Available: " + suiteAvailable);
     }
 }
